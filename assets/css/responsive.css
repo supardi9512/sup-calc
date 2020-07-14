@@ -22,7 +22,17 @@
 
 @media (max-width: 1000px) {
     #title.not-responsive {
-        margin-left: 40px;
+        display: none;
+    }
+
+    #title.responsive {
+        display: block;
+        margin-top: 73px;
+        text-align: center;
+        -webkit-animation-name: GerakanKeAtas;
+        animation-name: GerakanKeAtas;
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
     }
 
     #title h1 {
@@ -38,7 +48,9 @@
     }
 
     #calculator {
-        margin: 73px 40px 73px 0;
+        text-align: center;
+        margin: 73px auto;
+        float: none;
     }
 }
   
