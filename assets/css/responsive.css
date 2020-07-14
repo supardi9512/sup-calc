@@ -1,0 +1,78 @@
+@media (max-width: 1200px) {
+    #title.not-responsive {
+        margin-left: 70px;
+    }
+
+    #title h1 {
+        font-size: 4rem;
+        color: #eaedef;
+        font-weight: bold;
+    }
+
+    #title p {
+        font-size: 3rem;
+        color: #eaedef;
+        font-weight: bold;
+    }
+
+    #calculator {
+        margin: 73px 70px 73px 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    #title.not-responsive {
+        margin-left: 40px;
+    }
+
+    #title h1 {
+        font-size: 3rem;
+        color: #eaedef;
+        font-weight: bold;
+    }
+
+    #title p {
+        font-size: 2rem;
+        color: #eaedef;
+        font-weight: bold;
+    }
+
+    #calculator {
+        margin: 73px 40px 73px 0;
+    }
+}
+  
+@media (max-width: 780px) {
+    
+    #title.not-responsive {
+        display: none;
+    }
+
+    #title.responsive {
+        display: block;
+        margin-top: 73px;
+        text-align: center;
+        -webkit-animation-name: GerakanKeAtas;
+        animation-name: GerakanKeAtas;
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+    }
+
+    #title h1 {
+        font-size: 3rem;
+        color: #eaedef;
+        font-weight: bold;
+    }
+
+    #title p {
+        font-size: 2rem;
+        color: #eaedef;
+        font-weight: bold;
+    }
+
+    #calculator {
+        text-align: center;
+        margin: 73px auto;
+        float: none;
+    }
+}

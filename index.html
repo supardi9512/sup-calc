@@ -1,0 +1,47 @@
+<html>
+	<head>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+		<title>Sup-Calc</title>
+	</head>
+	<body>
+            <div id="title" class="not-responsive">
+                <h1>Sup-Calc<span>.</span></h1>
+                <p>Hitung kapan saja dan di mana saja<span>!</span></p>
+            </div>
+            <div id="title" class="responsive">
+                <h1>Sup-Calc<span>.</span></h1>
+                <p>Hitung kapan saja dan di mana saja<span>!</span></p>
+            </div>
+			<div id="calculator">
+				<div id="result">
+					<div id="output">
+						<p id="output-value"></p>
+					</div>
+				</div>
+				<div id="keyboard">
+					<button class="button" type="button" onclick="clean()">C</button>
+					<button class="button" type="button" onclick="back()">CE</button>
+					<button class="button" type="button" onclick="insert('%')">%</button>
+					<button class="button-right" type="button" onclick="insert('/')">&#247;</button>
+					<button class="button" type="button" onclick="insert(7)">7</button>
+					<button class="button" type="button" onclick="insert(8)">8</button>
+					<button class="button" type="button" onclick="insert(9)">9</button>
+					<button class="button-right" type="button" onclick="insert('*')">&times;</button>
+					<button class="button" type="button" onclick="insert(4)">4</button>
+					<button class="button" type="button" onclick="insert(5)">5</button>
+					<button class="button" type="button" onclick="insert(6)">6</button>
+					<button class="button-right" type="button" onclick="insert('-')">-</button>
+					<button class="button" type="button" onclick="insert(1)">1</button>
+					<button class="button" type="button" onclick="insert(2)">2</button>
+					<button class="button" type="button" onclick="insert(3)">3</button>
+					<button class="button-right" type="button" onclick="insert('+')">+</button>
+					<button class="button" type="button" onclick="insert(0)">0</button>
+					<button class="button" type="button" onclick="insert('00')">00</button>
+					<button class="button" type="button" onclick="insert('.')">.</button>
+					<button class="button-right" type="button" onclick="equal()">=</button>
+				</div>
+			</div>
+		<script src="assets/js/script.js"></script>
+	</body>
+</html>
